@@ -239,28 +239,14 @@ nav {
 
 .workspace-img {
   width: 100%;
-  max-width: 700px;
-  height: 500px;
-  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  max-width: 600px;
+  height: 350px;
+  background:
+    linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)),
+    url("img/Programa.png") center/cover no-repeat;
   border-radius: 20px;
-  position: relative;
   overflow: hidden;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-}
-
-.workspace-img::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  height: 60%;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(96,165,250,0.1)"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>');
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.3;
 }
 
 /* ========== ABOUT ========== */
