@@ -627,14 +627,17 @@ nav {
 }
 
 /* Ajuste para Tablets (Retrato) */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .home-content,
   .about-content {
     grid-template-columns: 1fr; /* Empilha o conteúdo */
     text-align: center;
   }
 
-  .home-image,
+  .home-image {
+    width: 100%;
+    min-height: 300px; /* Força uma altura mínima no mobile */
+  }
   .about-image {
     order: -1; /* Imagem vai para cima do texto */
     margin: 0 auto;
@@ -651,7 +654,8 @@ nav {
   }
 
   .workspace-img {
-    height: 300px; /* Reduz altura da imagem decorativa */
+    height: 250px; /* Ajusta a altura da moldura no celular */
+    width: 90%;
   }
 }
 
